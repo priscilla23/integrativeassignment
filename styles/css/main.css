@@ -1,0 +1,415 @@
+a:link {
+  color: ;
+  text-decoration: none;
+}
+a:hover {
+  /*color: darken(@grey, 10%);*/
+
+  text-decoration: none;
+}
+a:visited {
+  /*color: darken(@grey, 25%);*/
+
+  text-decoration: none;
+}
+p {
+  font-size: 1em;
+  margin: 0;
+  line-height: 1.5em;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 700;
+  line-height: 1.3em;
+  text-transform: uppercase;
+  text-align: center;
+}
+h1 {
+  font-size: 4.8em;
+  color: #ffffff;
+}
+h2 {
+  font-size: 2.1em;
+  color: #ffffff;
+}
+h3 {
+  font-size: 1.5em;
+  font-family: 'Franklin Gothic Demi';
+}
+h4 {
+  font-size: 1.2em;
+}
+dt {
+  font-weight: bolder;
+  color: ;
+}
+dd {
+  font-family: ;
+}
+header a {
+  color: #80bca3;
+  text-decoration: none;
+}
+#about p {
+  font-size: 0.8em;
+}
+.small {
+  font-size: 0.8em;
+}
+.total {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.publish p {
+  font-size: 1.5em;
+  font-family: 'Franklin Gothic Demi';
+}
+footer a {
+  font-size: 0.7em;
+  text-transform: uppercase;
+}
+footer p {
+  font-size: 0.7em;
+}
+/* gradient*/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Century Gothic';
+  font-size: 1em;
+  color: #000;
+  margin: 0;
+  height: 1500px;
+}
+#main-nav {
+  /*position:fixed; messing eveyrthing up*/
+  top: 0px;
+}
+header {
+  height: 60px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+  color: #655643;
+}
+header img {
+  float: left;
+  padding-top: 10px;
+}
+header ul {
+  float: right;
+  margin-top: 15px;
+}
+header ul li {
+  display: inline;
+  padding: 10px;
+}
+header ul a:hover {
+  color: #ffffff;
+}
+header ul li:hover {
+  background-color: #80bca3;
+}
+.content {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+header,
+#about,
+#blog,
+#gallery {
+  background-color: #ffffff;
+}
+#takepart {
+  background-color: #80bca3;
+}
+header,
+#about,
+#achievements,
+#blog,
+#gallery,
+#takepart,
+#footer {
+  width: 100%;
+}
+#cta {
+  height: 650px;
+  width: 100%;
+  background: url(../../images/apple.jpg) no-repeat;
+  float: left;
+  margin-top: 60px;
+}
+#cta h1 {
+  margin: 200px auto 0;
+}
+#cta h2 {
+  margin: auto 199px;
+}
+#cta #donate {
+  margin: auto 0 0 42%;
+}
+#donate,
+#register {
+  padding: 5px;
+  background-color: #80bca3;
+  border: 1px solid #666;
+  color: #000;
+  height: 75px;
+  width: 150px;
+  text-decoration: none;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  font-size: 1em;
+  color: #ffffff;
+}
+#about {
+  height: 490px;
+  clear: both;
+}
+#about img {
+  float: left;
+  margin: 15px;
+}
+#about p {
+  padding-right: 100px;
+}
+#achievements {
+  background-color: #655643;
+  height: 350px;
+}
+#achievements .ach {
+  height: 130px;
+  width: 110x;
+  float: left;
+  text-align: center;
+  background-color: #ffffff;
+  color: #655643;
+  border: solid 5px #80bca3;
+  padding: 25px 5px;
+  margin-left: 10px;
+}
+#achievements .ach:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+#about h2,
+#achievements h2,
+#gallery h2 {
+  color: #80bca3;
+  padding-top: 15px;
+}
+#gallery {
+  height: 650px;
+}
+#gallery h2 {
+  margin-top: 0;
+  color: #80bca3;
+}
+#gallery .text:hover {
+  opacity: 1;
+}
+#gallery img {
+  height: 200px;
+  width: 200px;
+  border: solid 5px #ffffff;
+  margin-left: 30px;
+}
+#gallery #flickrlink {
+  float: right;
+  padding-left: 50px;
+}
+#takepart {
+  height: 340px;
+}
+#takepart h2 {
+  color: white;
+}
+#myform {
+  height: 260px;
+  width: 400px;
+  margin: 0 auto;
+  border: ridge 2px #ffffff;
+  padding: 10px;
+}
+input {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+textarea {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+#submitb {
+  background-color: #16a085;
+  color: #ffffff;
+  float: right;
+}
+#socialBar {
+  height: 200px;
+  text-align: center;
+}
+#socialBar li {
+  display: inline;
+  padding: 20px 15px;
+  margin: auto;
+}
+#socialBar li img {
+  height: 100px;
+  width: 100px;
+}
+#socialBar li img:hover {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+footer {
+  background-color: #111111;
+  height: 150px;
+  text-align: center;
+  padding: 10px;
+}
+footer li {
+  display: inline-block;
+  padding: 10px 15px;
+}
+footer li a {
+  color: #ffffff;
+}
+footer li a:hover {
+  color: #80bca3;
+}
+footer p {
+  color: #655643;
+}
+@media screen and (max-width: 768px) {
+  body {
+    max-width: 768px;
+  }
+  #cta h1 {
+    font-size: 3.4em;
+  }
+  #cta #donate,
+  #cta #register {
+    padding: 5px;
+    background-color: #80bca3;
+    border: 1px solid #666;
+    color: #000;
+    height: 40px;
+    width: 100px;
+    text-decoration: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    font-size: 0.8em;
+    color: #ffffff;
+  }
+  #about {
+    height: 768px;
+  }
+  #achievements {
+    height: 350px;
+  }
+  #achievements .ach {
+    height: 130px;
+    width: 115px;
+    margin-top: 5px;
+  }
+  #gallery {
+    height: 400px;
+  }
+  #gallery img {
+    height: 130px;
+    width: 130px;
+    margin-left: 15px;
+  }
+  #socialBar li img {
+    height: 65px;
+    width: 65px;
+  }
+}
+@media screen and (max-width: 480px) {
+  body {
+    max-width: 480px;
+  }
+  header {
+    height: 100px;
+  }
+  #main-nav {
+    clear: both;
+    float: left;
+    margin: 0 15px;
+  }
+  #logo {
+    margin: 0 60px;
+  }
+  #cta {
+    background: none;
+    margin-top: 100px;
+    height: 100px;
+  }
+  #cta h1 {
+    display: none;
+  }
+  #cta h2 {
+    font-size: 1em;
+    color: #655643;
+    margin: 0 50px;
+  }
+  #cta #donate {
+    padding: 5px;
+    background-color: #80bca3;
+    border: 1px solid #666;
+    color: #000;
+    height: 45px;
+    width: 100px;
+    font-size: 1em;
+    color: #ffffff;
+    margin: 0 175px;
+  }
+  #cta #register {
+    display: none;
+  }
+  #about {
+    height: 940px;
+    margin-top: 85px;
+  }
+  #about img {
+    height: 280px;
+    width: 400px;
+  }
+  #about p {
+    clear: both;
+    padding: 0 25px;
+  }
+  #achievements {
+    height: 420px;
+    padding: 0 40px;
+  }
+  #gallery {
+    height: 1200px;
+  }
+  #gallery img {
+    height: 200px;
+    width: 200px;
+    margin: auto 12px;
+  }
+  #gallery #flickrlink {
+    margin-right: 20px;
+  }
+  #socialBar li img {
+    height: 65px;
+    width: 65px;
+  }
+}
